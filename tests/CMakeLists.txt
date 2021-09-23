@@ -3,7 +3,7 @@ find_package(AvogadroLibs REQUIRED NO_MODULE)
 find_path(AVOGADRO_DATA_ROOT .avogadro.data
   ${AvogadroApp_SOURCE_DIR}/../avogadrodata
   $ENV{AVOGADRO_DATA_ROOT}
-  DOC "The repository for data used for testing."
+  DOC "The repository of data used for testing."
   )
 mark_as_advanced(AVOGADRO_DATA_ROOT)
 
