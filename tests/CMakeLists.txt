@@ -10,7 +10,7 @@ mark_as_advanced(AVOGADRO_DATA_ROOT)
 if(AVOGADRO_DATA_ROOT)
   set(AVOGADRO_DATA ${AVOGADRO_DATA_ROOT})
 else()
-  message("No data root found, please set to run the tests.")
+  message("No data root found, please set not to run the tests.")
   return()
 endif()
 
